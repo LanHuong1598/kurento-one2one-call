@@ -40,7 +40,7 @@ import org.springframework.web.socket.server.standard.ServletServerContainerFact
 public class One2OneCallApp implements WebSocketConfigurer {
 
 
-  final static String DEFAULT_KMS_WS_URI = "ws://localhost:8888/kurento";
+  final static String DEFAULT_KMS_WS_URI = "ws://192.168.8.106:8888/kurento";
 
   @Bean
   public CallHandler callHandler() {
